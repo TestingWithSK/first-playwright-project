@@ -1,23 +1,23 @@
 # First Playwright Project using JavaScript
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Playwright](https://img.shields.io/badge/playwright-%797979.svg?style=for-the-badge&logo=playwright&logoColor=white)
+![Playwright](https://img.shields.io/badge/playwright-%797979.svg?style=for-the-badge&logo=playwright&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 Read the complete Blog - [Playwright Testing using JavaScript – Setup](https://testingwithsk.in/playwright-testing-using-javascript-setup/)
 
 This new year, I am going to start with a new automation tool – Microsoft Playwright. In this article, we will learn about playwright testing. Playwright is the newest addition to the Headless Browser Testing Frameworks which is developed by the authors of Puppeteer and maintained by Microsoft. Playwright is an open-source web automation library, built on top of Puppeteer. In this article, we look into a web automation framework created with Playwright and Java Script.
 
-### Clone the repository
+## Clone the repository
 
 ```shell
 git clone https://github.com/TestingWithSK/first-playwright-project.git
 ```
 
-### Or Create a playwright project from scratch
+## Or Create a playwright project from scratch
 ```shell
 npm init playwright@latest
 ```
 
-### Run the Playwright Test
+## Run the Playwright Test
 To execute the tests, open the terminal and type the following commands -
 
 - [x] **Run all the tests**
@@ -60,7 +60,7 @@ npx playwright test file1 file2
 npx playwright test --workers=1
 ```
 
-### Debug the Playwright Test
+## Debug the Playwright Test
 To debug the tests, open the terminal and type the following commands -
 
 - [x] **Debug all the tests**
