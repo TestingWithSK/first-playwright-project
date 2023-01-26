@@ -20,42 +20,42 @@ npm init playwright@latest
 ## Run the Playwright Test
 To execute the tests, open the terminal and type the following commands -
 
-- [x] **Run all the tests**
+### **Run all the tests**
 ```shell
 npm playwright test
 ```
 
-- [x] **Run a single test file**
+### **Run a single test file**
 ```shell
 npx playwright test example.spec.js
 ```
 
-- [x] **Run a set of test files**
+### **Run a set of test files**
 ```shell
 npx playwright test tests/dir_1 tests/dir_2
 ```
 
-- [x] **Run tests in Headed mode**
+### **Run tests in Headed mode**
 ```shell
 npx playwright test --headed
 ```
 
-- [x] **Run the test in a specific Project (Browser)**
+### **Run the test in a specific Project (Browser)**
 ```shell
 npx playwright test --project=firefox
 ```
 
-- [x] **Run the test with the Title**
+### **Run the test with the Title**
 ```shell
 npx playwright test -g "Your Test Title"
 ```
 
-- [x] **Run all the files that have `file1` and `file2` in the file name**
+### **Run all the files that have `file1` and `file2` in the file name**
 ```shell
 npx playwright test file1 file2
 ```
 
-- [x] **Disable Parallel Execution**
+### **Disable Parallel Execution**
 ```shell
 npx playwright test --workers=1
 ```
@@ -63,12 +63,12 @@ npx playwright test --workers=1
 ## Debug the Playwright Test
 To debug the tests, open the terminal and type the following commands -
 
-- [x] **Debug all the tests**
+### **Debug all the tests**
 ```shell
 npm playwright test --debug
 ```
 
-- [x] **Debug a single test file**
+### **Debug a single test file**
 ```shell
 npx playwright test example.spec.js --debug
 ```
